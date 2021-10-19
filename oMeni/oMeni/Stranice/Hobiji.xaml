@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="oMeni.Stranice.Hobiji">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+
+
+
+
+                <AbsoluteLayout x:Name="page_hobiji_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,412,870"
+				 >
+
+                    <BoxView x:Name="_bg__hobiji_ek2"
+					Color="#121212"
+					AbsoluteLayout.LayoutBounds="0,0,412,870" />
+                    <Label x:Name="treniram_karate"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="122,63,162,41"
+					Text="Treniram karate"
+				 />
+                    <Image x:Name="judo"
+					Source="judo.png"
+					AbsoluteLayout.LayoutBounds="70,105,273,273" />
+                    <Label x:Name="igram_igrice_"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="94,443,219,55"
+					Text="Igram igrice
+"
+				 />
+                    <Image x:Name="download__3_"
+					Source="download__3_.png"
+					AbsoluteLayout.LayoutBounds="76,474,261,391" />
+                </AbsoluteLayout>
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,39 @@
+<ContentPage x:Class="omeni.skola"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="skola">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="page_skola_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,412,870"
+				 >
+
+				<BoxView x:Name="_bg__skola_ek2"
+					Color="#121212"
+					AbsoluteLayout.LayoutBounds="0,0,412,870" />
+				<Label x:Name="idem_u_tehni_ku__kolu_slavonski_brod_za_tehni_ara_za_ra_unalstvo"
+					FontFamily="Segoe UI"
+					Opacity="0.7"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="29,156,355,68"
+					Text="Idem u Tehniku kolu Slavonski Brod za tehniara za raunalstvo"
+				 />
+				<Image x:Name="tslogo_small_notext_removebg_preview"
+					Source="tslogo_small_notext_removebg_preview.png"
+					AbsoluteLayout.LayoutBounds="62,299,289,290" />
+			</AbsoluteLayout>
+
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

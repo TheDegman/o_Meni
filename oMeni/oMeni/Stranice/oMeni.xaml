@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="oMeni.Stranice.oMeni">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="page_omeni_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,412,870"
+				 >
+
+                    <BoxView x:Name="_bg__omeni_ek2"
+					Color="#121212"
+					AbsoluteLayout.LayoutBounds="0,0,412,870" />
+                    <Label x:Name="dorian_maru_i_"
+					FontFamily="Segoe UI"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					Opacity="0.8"
+					FontSize="40"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="2,83,395,82"
+					Text="Dorian Marušić"
+				 />
+                    <Image x:Name="img_20211019_022856_removebg_preview"
+					Source="img_20211019_022856_removebg_preview.png"
+					AbsoluteLayout.LayoutBounds="36,232,340,358" />
+                    <Label x:Name="koldvorska_85__slobodnica"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					Opacity="0.7"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="58,694,291,41"
+					Text="Koldvorska 85, Slobodnica"
+				 />
+                    <Label x:Name="_10_10_2003_"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					Opacity="0.7"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="63,654,280,68"
+					Text="10.10.2003
+"
+				 />
+                </AbsoluteLayout>
+
+
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
